@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@900&family=Noto+Serif+Lao:wght@500&family=Roboto+Slab:wght@800&family=Shantell+Sans:wght@300&family=Tilt+Warp&display=swap");
+body {
+  background-color: rgb(224, 222, 222);
+  padding-top: 150px;
+}
+#products {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  font-size: 30px;
+}
+#first-product {
+  background-color: white;
+  width: 300px;
+  padding: 10px;
+  border-radius: 3%;
+}
+#second-product {
+  background-color: white;
+  width: 300px;
+  padding: 10px;
+  border-radius: 3%;
+}
+#third-product {
+  background-color: white;
+  width: 300px;
+  padding: 10px;
+  border-radius: 3%;
+}
+#fourth-product {
+  background-color: white;
+  width: 300px;
+  padding: 10px;
+  border-radius: 3%;
+}
+
+#first-product h3 {
+  font-family: "Heebo", sans-serif;
+  font-family: "Noto Serif Lao", serif;
+  font-family: "Roboto Slab", serif;
+  font-family: "Shantell Sans", "cursive";
+  font-family: "Tilt Warp", "cursive";
+}
+#second-product h3 {
+  font-family: "Heebo", sans-serif;
+  font-family: "Noto Serif Lao", serif;
+  font-family: "Roboto Slab", serif;
+  font-family: "Shantell Sans", "cursive";
+  font-family: "Tilt Warp", "cursive";
+}
+#third-product h3 {
+  font-family: "Heebo", sans-serif;
+  font-family: "Noto Serif Lao", serif;
+  font-family: "Roboto Slab", serif;
+  font-family: "Shantell Sans", "cursive";
+  font-family: "Tilt Warp", "cursive";
+}
+#fourth-product h3 {
+  font-family: "Heebo", sans-serif;
+  font-family: "Noto Serif Lao", serif;
+  font-family: "Roboto Slab", serif;
+  font-family: "Shantell Sans", "cursive";
+  font-family: "Tilt Warp", "cursive";
+}
+h2 {
+  margin: 20px;
+  font-size: 50px;
+}
+.buttons {
+  color: white;
+  /* width: 50px;
+  height: 50px; */
+
+  outline: none;
+  border-style: none;
+  background-color: black;
+
+  border-radius: 50%;
+  font-size: 30px;
+}
+/* .button-1 {
+  color: white;
+  width: 50px;
+  height: 50px;
+
+  outline: none;
+  border-style: none;
+  background-color: black;
+
+  border-radius: 50%;
+  font-size: 30px;
+}
+.button-2 {
+  color: white;
+  width: 30px;
+  height: 30px;
+
+  outline: none;
+  border-style: none;
+  background-color: black;
+
+  border-radius: 50%;
+  font-size: 10px;
+}
+.button-3 {
+  color: white;
+  width: 30px;
+  height: 30px;
+
+  outline: none;
+  border-style: none;
+  background-color: black;
+
+  border-radius: 50%;
+  font-size: 50px;
+}
+.button-4 {
+  color: white;
+  width: 30px;
+  height: 30px;
+
+  outline: none;
+  border-style: none;
+  background-color: black;
+
+  border-radius: 50%;
+  font-size: 50px;
+}
+.button-5 {
+  color: white;
+  width: 30px;
+  height: 30px;
+
+  outline: none;
+  border-style: none;
+  background-color: black;
+
+  border-radius: 50%;
+  font-size: 50px;
+}
+.button-6 {
+  color: white;
+  width: 30px;
+  height: 30px;
+
+  outline: none;
+  border-style: none;
+  background-color: black;
+
+  border-radius: 50%;
+  font-size: 50px;
+}
+.button-7 {
+  color: white;
+  width: 30px;
+  height: 30px;
+
+  outline: none;
+  border-style: none;
+  background-color: black;
+
+  border-radius: 50%;
+  font-size: 50px;
+}
+.button-8 {
+  color: white;
+  width: 30px;
+  height: 30px;
+
+  outline: none;
+  border-style: none;
+  background-color: black;
+
+  border-radius: 50%;
+  font-size: 50px;
+} */
+.containers {
+  display: flex;
+  align-content: center;
+  align-items: center;
+}
+.toggleHeart{
+  color: red;
+}

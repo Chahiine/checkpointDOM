@@ -1,0 +1,87 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="ch.css" />
+    <title>Apple</title>
+    <i class="fa-brands fa-apple"></i>
+  </head>
+  <body>
+    <section id="products">
+      <div id="first-product">
+        <img src="iphone14.jpg" alt="" width="300px" height="300px" />
+        <h3>IPHONE 14 PRO MAX</h3>
+        <h6>Faster forward</h6>
+        <h4>1 479,00 €</h4>
+        <div class="containers">
+          <button class="buttons" onclick="decrement1()">-</button>
+          <h2 id="card-1"></h2>
+          <button class="buttons" onclick="increment1()">+</button>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">
+            <button class="fas fa-trash-alt"></button>
+            <button class="fas fa-heart"></button>
+          </li>
+        </ul>
+      </div>
+      <div id="second-product">
+        <img src="airpods.jpg" alt="" width="300px" height="300px" />
+        <h3>AIRPODS</h3>
+        <h6>More immersive by every measure</h6>
+        <h4>219,00 €</h4>
+        <div class="containers">
+          <button class="buttons" onclick="decrement2()">-</button>
+          <h2 id="card-2"></h2>
+          <button class="buttons" onclick="increment2()">+</button>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">
+            <button class="fas fa-trash-alt"></button>
+            <button class="fas fa-heart"></button>
+          </li>
+      </div>
+      <div id="third-product">
+        <img src="watch.jpg" alt="" width="300px" height="300px" />
+        <h3>APPLE WATCH</h3>
+        <h6>Adventure awaits</h6>
+        <h4>999,00 €</h4>
+        <div class="containers">
+          <button class="buttons" onclick="decrement3()">-</button>
+          <h2 id="card-3"></h2>
+          <button class="buttons" onclick="increment3()">+</button>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">
+            <button class="fas fa-trash-alt"></button>
+            <button class="fas fa-heart"></button>
+          </li>
+      </div>
+      <div id="fourth-product">
+        <img src="pc.jpg" alt="" width="300px" height="300px" />
+        <h3>MAC-BOOK</h3>
+        <h6>Mover. Maker. Boundary breaker.</h6>
+        <h4>4 149,00 €</h4>
+        <div class="containers">
+          <button class="buttons" onclick="decrement4()">-</button>
+          <h2 id="card-4"></h2>
+          <button class="buttons" onclick="increment4()">+</button>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">
+            <button class="fas fa-trash-alt"></button>
+            <button class="fas fa-heart"></button>
+          </li>
+      </div>
+
+      <div class="container"></div>
+    </section>
+    <div id="cont">
+      <h1>TOTAL PRICE</h1>
+      <h2 id="car"></h2>
+      <h2>€</h2>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
